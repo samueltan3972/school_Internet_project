@@ -10,7 +10,7 @@ To modify this project, in command prompt
 
 To push the project back to the repository
 0. git add *
-1. git commit -m "put your message at here"
+1. git commit -m "put your message at here <your name>"
 2. git push -u origin master
 
 
