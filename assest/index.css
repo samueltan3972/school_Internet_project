@@ -1,0 +1,38 @@
+body {
+	margin: 0px;
+	animation: fadeIn 2s;
+  	-webkit-keyframes: fadeIn 2s;
+}
+
+.parallax {
+  height: 1000px;
+  background-image: url("penang.jpg");
+ 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.header-wrap{
+  width: 100%;
+  position: fixed;
+  border-bottom: 1px solid #EEE;
+}
+
+.transparent-header {
+	background: transparent;
+}
+
+#header {
+	position:relative;
+}
+
+@-webkit-keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
