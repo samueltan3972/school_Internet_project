@@ -1,11 +1,13 @@
 # school_Internet_project
 
 ## To modify this project, in command prompt
+```
 1. Fork this project
 2. navigation to the folder you want to download
 3. git clone <the link>
 4. cd school_Internet_project
 5. git branch checkout -b <your-name>
+```
 
 
 ## To push the project back to the repository
