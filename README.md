@@ -17,3 +17,6 @@ To push the project back to the repository
 Some command for your guy:
 0. git status : to see which file is modified during previous commit
 1. git branch : to see which branch you are in right now
+
+
+If you still feel not comfortable for using git, you can play it with Contributor.md
