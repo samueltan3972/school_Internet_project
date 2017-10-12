@@ -24,4 +24,7 @@
 2. git branch : to see which branch you are in right now
 ```
 
-If you still feel not comfortable for using git, you can play it with Contributor.md
+## Click this link(http://dictn.000webhostapp.com/) to see the live
+
+## If you still feel not comfortable for using git, you can play it with Contributor.md
+
