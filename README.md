@@ -17,6 +17,16 @@
 3. git push -u origin master
 ```
 
+## To bring the latest version of project from master
+```
+1. you need to be in master branch, 
+	git branch to check it
+2. If not in the master branch, then
+	git checkout master
+3. git remote add upstream https://github.com/samueltan3972/school_Internet_project
+4. git fetch upstream 
+5. git rebase upstream/master
+6. Then you can push it again
 
 ## Some command for your guy:
 ```
