@@ -27,6 +27,7 @@
 4. git fetch upstream 
 5. git rebase upstream/master
 6. Then you can push it again
+```
 
 ## Some command for your guy:
 ```
