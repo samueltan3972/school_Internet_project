@@ -7,29 +7,14 @@
 	<!-- this disable zoom in 
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
   -->	
-  	<link rel="stylesheet" type="text/css" href="assest/index.css">
+  	<link rel="stylesheet" type="text/css" href="css/common.css">
+  	<link rel="stylesheet" type="text/css" href="css/index.css">
 
-  	<!-- external stylesheet -->
-  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+  	<!-- external stylesheet  -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flexboxgrid/6.3.1/flexboxgrid.min.css" type="text/css" >
+
   	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </head>
-
-<style>
-	ul {
-		list-style-type: none;
-		margin: 0;
-		padding: 0;
-		overflow: hidden;
-		}
-	li {
-		float: left;
-		}
-	figcaption{
-				font-size: 2em;
-				font-family: papyrus, fantasy;
-				}
-</style>
-
 <body>
 
 	<header id="header">
@@ -40,35 +25,82 @@
 			</div>
 		-->
 			<ul class="navigation">
-			  <li><a href="#">Contact Us</a></li>
-			  <li><a href="#">Food</a></li>
-			  <li><a href="#">Places</a></li>
+			  <li><a href="contact.html">Contact Us</a></li>
+			  <li><a href="food.html">Food</a></li>
+			  <li><a href="places.html">Places</a></li>
 			  <li><a href="about.html">About</a></li>
 			  <li><a href="index.html">Home</a></li>
 			</ul>
 		</div>
 	</header>
 	
-	<div class="parallax">
-		<!--
-		<div class="text-wrapper">
-		    <div class="animated-words">
-		        <span>Welcome</span>
-		        <span>to</span>
-		        <span>Penang</span>
-			</div>    
-		</div>
-	-->
+	<div class="picture">
+		<h1 class="text-wrapper auto-type">Welcome to Penang!</h1>
+		<button class="button bounce" id="getStart">Get started</button>
 	</div>
-	<div class="blank" style="height: 2000px;">
+
+	<div class="content">
+		<h1>Click on any picture to learn more about Penang:</h1>
+
 		<figure>
-		<ul>
-			<li><img src="assest/bridge.jpg" alt="Penang Bridge" width=33% height="320"> 	<figcaption>Penang Bridge</figcaption></li>
-			<li><img src="assest/sunset.jpg" alt="Sunset View" width=33% height="320"> <figcaption>Sunset</figcaption></li>
-			<li><img src="assest/night.jpg" alt="Night View" width=33% height="320"> <figcaption>Night View</figcaption></li>
-		</ul>
-	</figure>
+			<ul>
+				<li class="col-md-4">
+					<a href="about.html">
+						<img src="assest/bridge.jpg" alt="Penang Bridge">
+					</a>
+					<figcaption>About Penang</figcaption>
+				</li>
+				<li class="col-md-4">
+					<a href="places.html">
+						<img src="assest/sunset.jpg" alt="Sunset View"> 
+					</a>
+					<figcaption>Places in Penang</figcaption>
+				</li>
+				<li class="col-md-4">
+					<a href="food.html">
+						<img src="assest/night.jpg" alt="Night View">
+					</a>
+					<figcaption>Food in Penang</figcaption>
+				</li>
+			</ul>
+		</figure>
+
 	</div>
-	
+
+	<footer class="footer">
+		<div class="row">
+			<div class="col-xs-8">
+				<p>Website build by:</p>
+				<ul>
+					<li>Lee Weng Fung</li>
+					<li>Beh Xuan Yong</li>
+					<li>Beh Si Fan</li>
+					<li>Rengakumaraa</li>
+					<li>Samuel Tan</li>
+				</ul>
+			</div>
+			<div class="col-xs-4">
+				<p>Find us on :</p>
+				<a href="https://github.com/samueltan3972/school_Internet_project" target="_blank"><img src="assest/GitHub-Mark-32px.png" alt="GitHub" height="20px" width="20px"></a>
+			</div>
+
+			<span style="color:#9E9E9E;">&copy no copyright 2017 | College project</span>
+		</div>
+
+	</footer>
+
+	<script>
+		$(document).ready(function(){
+			$("#getStart").click(function(){
+				$(".content").css("display", "inline-block");
+				
+				$("html, body").animate({
+				    scrollTop: $(".content").offset().top
+				}, 1000);
+			});
+
+			
+		});
+	</script>
 </body>
 </html>
