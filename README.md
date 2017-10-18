@@ -35,7 +35,7 @@
 2. git branch : to see which branch you are in right now
 ```
 
-## Click this [link](http://dictn.000webhostapp.com/){:target="_blank"} to see the live
+## Click this <a href="http://dictn.000webhostapp.com/" target="_blank">link</a> to see the live
 
 ## If you still feel not comfortable for using git, you can play it with Contributor.md
 
