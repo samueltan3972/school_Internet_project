@@ -9,6 +9,14 @@
   background-repeat: no-repeat;
 }
 
+.picture2{
+  background-image: url("../assest/night2.jpg");
+  background-size: cover;
+  background-position: 0% 100%	;
+  background-repeat: no-repeat;
+}
+
+
 .button {
   background-color: red;
   color: white;
@@ -44,6 +52,7 @@
 
 .content {
   display: none;
+  color: white;
 }
 
 .content ul {
