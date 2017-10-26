@@ -1,0 +1,37 @@
+.picture{
+	position: relative;
+}
+
+.picture img{
+	position: relative;
+}
+
+.transparent {
+	display: none;
+}
+
+.content{
+
+}
+
+/* animation */
+/* changing */
+
+.changing{
+	animation-name: changing;
+	animation-duration: 30s;
+	animation-iteration-count: infinite;
+	animation-delay: 2s;
+	animation-timing-function: ease-in-out;
+}
+
+@keyframes FadeInOut {
+  0% {
+    opacity:0;
+  }
+  50% {
+    opacity:1;
+  }
+  100% {
+  }
+}
