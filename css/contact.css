@@ -1,7 +1,3 @@
-body {
-		background-color: #00FA9A;
-}
-
 address {
 		font-size: 1.25em;
 		font-family: "work sans", sans-serif;
@@ -58,6 +54,8 @@ img {
 .content {
   display: none;
   padding-top: 30px;
+  padding-bottom: 20px;
+  background-color: #00FA9A;
 }
 
 /* animation */
@@ -69,7 +67,7 @@ img {
   	 -moz-animation-name: bounceInLeft;
   	 -moz-animation-duration: 2s;
   		  animation-name: bounceInLeft;
- 		  animation-duration: 2s;
+ 		    animation-duration: 2s;
 
 }
 
