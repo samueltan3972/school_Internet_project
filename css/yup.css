@@ -1,8 +1,8 @@
 #cf {
   position:relative;
   height:281px;
-  width:450px;
-  margin:0 auto;
+  width:465px;
+  margin: auto;
 }
 
 #cf img {
@@ -17,6 +17,3 @@
 #cf img.top:hover {
   opacity:0;
 }
-
-
- 
