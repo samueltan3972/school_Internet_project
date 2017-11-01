@@ -1,3 +1,19 @@
+h1 {
+	font-family: courier, courier-new, sans-serif;
+	text-align: center;
+	}
+	
+p {
+	font-family: trebuchet ms, numbus sans l, sans-serif;
+	font-size: 1.1em;
+	}
+
+figcaption {
+			font-weight: bold;
+			font-size: 1.55em;
+			font-family: comic-sans-ms, garamond, sans-serif;
+			}
+
 .picture{
     height: 100%;
 	background-image: url("../assest/penang_view.jpg");
