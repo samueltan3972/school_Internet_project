@@ -77,6 +77,26 @@
   height: 320px;
 }
 
+#cf {
+  position:relative;
+  height:280px;
+  width:30vw;
+  margin: auto;
+}
+
+#cf img {
+  position:absolute;
+  left:0;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+}
+
+#cf img.top:hover {
+  opacity:0;
+}
+
 
 /* animation */
 /* bounce */
