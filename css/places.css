@@ -16,6 +16,7 @@ figcaption {
 
 .picture{
     height: 100%;
+	width: 100%;
 	background-image: url("../assest/penang_view.jpg");
     background-size: cover;
     background-attachment: fixed;
