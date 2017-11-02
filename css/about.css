@@ -7,6 +7,27 @@
   background-repeat: no-repeat;
 }
 
+.content h1{  
+	color:white;
+	text-align :center;
+	font-family: Algerian , serif;
+	font-size: 40px;
+	background-color:black;	 
+}
+
+.content p{      
+	font-family:Berlin Sans FB;
+	text-align:center;
+	padding-left:150px;
+	padding-right:150px;
+	font-size:20px;   
+}
+
+.content figure {
+	padding-left: 40px;
+	background-image: url("../assest/bg.jpg");
+}
+
 	
 	
 	
