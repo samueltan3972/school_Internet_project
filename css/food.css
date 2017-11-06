@@ -1,3 +1,12 @@
+.picture {
+  height: 100%;
+  background-image: url("../assest/loklok.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
 h1 {
 	font-family: courier, courier-new, sans-serif;
 	text-align: center;
