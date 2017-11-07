@@ -1,9 +1,11 @@
-h1 {
+.content h1 {
+	color:white;
+	background-color:black;
 	font-family: courier, courier-new, sans-serif;
 	text-align: center;
 	}
 	
-p {
+.content p {
 	font-family: trebuchet ms, numbus sans l, sans-serif;
 	font-size: 1.1em;
 	}
